@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: x-large;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  color: black;
+}
+.app {
+  width: 100%;
+}
+.nav-bar {
+  text-align: center;
+  padding: 5% 30% 2% 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+.about > div {
+  margin: 0 5%;
+}
+.about-text {
+  width: 65%;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.border {
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.profile-picture {
+  width: 100%;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.media-icon {
+  width: 2vw;
+}
+.icon {
+  width: 4vw;
+}
+.container {
+  margin: 0 5%;
+}
+.title-image-wrapper {
+  text-align: center;
+  margin-right: 5%;
+}
+.image {
+  width: 20vw;
+}
+.project-wrapper {
+  margin-bottom: 5%;
+  padding: 0 2%;
+}
+@media (max-width: 1600px) {
+  body {
+    font-size: large;
+  }
+}
+@media (max-width: 1400px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    font-size: small;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    font-size: x-small;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    font-size: xx-small;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 0.45rem;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    font-size: large;
+  }
+  .nav-bar {
+    padding: 10% 5% 10% 5%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .image {
+    width: 90%;
+  }
+  .media-icon {
+    width: 10vw;
+  }
+  .icon-container {
+    margin: 5% 0;
+  }
+  .about-text {
+    width: 86%;
+  }
+  .icon {
+    width: 12vw;
+  }
+}
