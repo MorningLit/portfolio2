@@ -4,7 +4,7 @@ html {
 body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: x-large;
+  font-size: 1.3vw;
 }
 a {
   text-decoration: none;
@@ -41,7 +41,7 @@ a:active {
 }
 .border {
   border-radius: 8px;
-  border: 2px solid black;
+  border: 0.2vw solid black;
 }
 .profile-picture {
   width: 100%;
@@ -70,39 +70,9 @@ a:active {
   margin-bottom: 5%;
   padding: 0 2%;
 }
-@media (max-width: 1600px) {
-  body {
-    font-size: large;
-  }
-}
-@media (max-width: 1400px) {
-  body {
-    font-size: medium;
-  }
-}
-@media (max-width: 1200px) {
-  body {
-    font-size: small;
-  }
-}
-@media (max-width: 1000px) {
-  body {
-    font-size: x-small;
-  }
-}
-@media (max-width: 800px) {
-  body {
-    font-size: xx-small;
-  }
-}
-@media (max-width: 600px) {
-  body {
-    font-size: 0.45rem;
-  }
-}
 @media (max-width: 500px) {
   body {
-    font-size: large;
+    font-size: 4.4vw;
   }
   .nav-bar {
     padding: 10% 5% 10% 5%;
