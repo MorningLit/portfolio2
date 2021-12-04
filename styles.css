@@ -53,9 +53,6 @@ a:active {
 .media-icon {
   width: 2vw;
 }
-.icon {
-  width: 4vw;
-}
 .container {
   margin: 0 5%;
 }
@@ -69,6 +66,23 @@ a:active {
 .project-wrapper {
   margin-bottom: 5%;
   padding: 0 2%;
+}
+figure {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+}
+figure > img {
+  width: 4vw;
+}
+figure > figcaption {
+  color: transparent;
+  font-size: 0.6vw;
+  font-weight: bold;
+  transition: color 0.555s ease-out;
+}
+figure > img:hover + figcaption {
+  color: black;
 }
 @media (max-width: 500px) {
   body {
@@ -92,7 +106,10 @@ a:active {
   .about-text {
     width: 86%;
   }
-  .icon {
+  figure > img {
     width: 12vw;
+  }
+  figure > figcaption {
+    font-size: 2vw;
   }
 }
