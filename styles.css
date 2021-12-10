@@ -39,12 +39,12 @@ a:active {
   flex-direction: column;
   justify-content: space-between;
 }
-.border {
-  border-radius: 8px;
-  border: 0.2vw solid black;
+.shadow {
+  box-shadow: 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 .profile-picture {
   width: 100%;
+  margin-bottom: 2%;
 }
 .icon-container {
   display: flex;
@@ -111,5 +111,8 @@ figure > img:hover + figcaption {
   }
   figure > figcaption {
     font-size: 2vw;
+  }
+  .text-padding {
+    padding: 0 3%;
   }
 }
